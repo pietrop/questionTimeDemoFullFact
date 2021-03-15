@@ -3,14 +3,33 @@
 <!-- _One liner + link to confluence page_
 _Screenshot of UI - optional_ -->
 
+Demo POC of adding interactive video quotes ([quickQuote](https://pietropassarelli.com/quickQuote.html)) to Full Fact Question time fact checking - January 22, 2016
+
+- [before - static quotes](http://pietropassarelli.com/questionTimeDemoFullFact/static_quotes.html)
+- [after - interactive quotes](http://pietropassarelli.com/questionTimeDemoFullFact/interactive_quotes.html)
+
 ## Setup
 
 <!-- _stack - optional_
 _How to build and run the code/app_ -->
 
+```
+git clone git@github.com:pietrop/questionTimeDemoFullFact.git
+```
+
+```
+cd questionTimeDemoFullFact
+```
+
 ## Usage
 
+see `/static_quotes.html` and `interactive_quotes.html`
+
+The interactive quotes parts where originally generated using [quickQuote](https://pietropassarelli.com/quickQuote/)
+
 ## System Architecture
+
+Just an HTML demo
 
 <!-- _High level overview of system architecture_ -->
 
@@ -28,6 +47,8 @@ We are using [this template for ADR](https://gist.github.com/iaincollins/92923cc
 
 ## Development env
 
+Not using node/npm
+
  <!-- _How to run the development environment_ -->
 
 <!-- - npm > `6.1.0`
@@ -44,7 +65,7 @@ nvm use
 
 <!-- _Linting, github pre-push hook - optional_ -->
 
-using git lfs for large media
+Using git lfs for large media
 
 - [An open source Git extension for versioning large files](https://git-lfs.github.com/)
 - [Configuring Git Large File Storage
@@ -59,10 +80,16 @@ git lfs track *.mp4
 
 <!-- _How to run build_ -->
 
+_NA_
+
 ## Tests
 
 <!-- _How to carry out tests_ -->
 
+_NA_
+
 ## Deployment
 
 <!-- _How to deploy the code/app into test/staging/production_ -->
+
+Onto github pages, in root of project, via github repo settigns page.
